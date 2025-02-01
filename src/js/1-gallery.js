@@ -89,7 +89,3 @@ const imageListEl = document.querySelector('.gallery');
 imageListEl.innerHTML = imagesCardsTemplate;
 
 new SimpleLightbox('.gallery a', { captionsData: 'alt', captionDelay: 250 });
-
-// imageListEl.addEventListener('click', event => {
-//   event.preventDefault();
-// });
